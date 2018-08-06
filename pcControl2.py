@@ -17,32 +17,24 @@ class PcControl():
         frame.pack()
         
         self.btn1 = tk.Button(frame,text="Log_Out",width=10,command=self.logOut)
-        #self.btn1.pack(side="left")
         self.btn1.grid(row=0,column=0,sticky='W')
         
         self.btn2 = tk.Button(frame,text="Lock",width=10,command=self.lock)
-        #self.btn2.pack(side="left")
         self.btn2.grid(row=0,column=1,sticky='W')
         
         self.btn3 = tk.Button(frame,text="Power_Off",width=10,command=self.powerOff)
-        #self.btn3.pack(side="left")
         self.btn3.grid(row=0,column=2,sticky='W')
         
         self.btn4 = tk.Button(frame,text="Reboot",width=10,command=self.reboot)
-        #self.btn4.pack(side="left")
         self.btn4.grid(row=1,column=0,sticky='W')
         
         self.btn5 = tk.Button(frame,text="Deep_Sleep",width=10,command=self.deepSleep)
-        #self.btn5.pack(side="left")
         self.btn5.grid(row=1,column=1,sticky='W')
         
         self.btn6 = tk.Button(frame,text="Exit",width=10,command=frame.quit)
-        #self.btn6.pack(side="left")
         self.btn6.grid(row=1,column=2,sticky='W')
         
         self.lab1 = tk.Label(frame,text="Author：Overcomer_No.1",fg="red")
-        #self.lab1.pack(side="bottom")
-        #self.lab1.place(x=50,y=50,width=200,height=2)
         self.lab1.grid(rowspan=2,columnspan=3,sticky="S")
         
         master.mainloop()
