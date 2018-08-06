@@ -1,2 +1,2 @@
 # pc_control
-use to control pc poweroff、reboot、sleep、lock... .
+This program is used to control pc poweroff、reboot、rest、lock screen、logout.
